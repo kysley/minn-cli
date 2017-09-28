@@ -1,0 +1,45 @@
+{
+  "name": "minn-cli",
+  "version": "1.0.1",
+  "description": "\"Quickly find the smallest value in an array: `[1,56,9,1925,586,3]` -> `[1]`",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kysley/minn-cli.git"
+  },
+  "author": {
+    "name": "Evan Kysley",
+    "email": "evan@kysley.com",
+    "url": "kysley.com"
+  },
+  "bin": {
+    "min": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "array",
+    "smallest",
+    "number",
+    "min"
+  ],
+  "dependencies": {
+    "execa": "^0.8.0",
+    "get-stdin": "^5.0.1",
+    "meow": "^3.5.0",
+    "minn": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
