@@ -14,7 +14,7 @@ const cli = meow(`
 		1
 `);
 
-const input = cli.input;
+const input = process.argv.slice(2);
 
 function init(data) {
 	console.log(min(data));

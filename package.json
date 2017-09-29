@@ -1,6 +1,6 @@
 {
   "name": "minn-cli",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "\"Quickly find the smallest value in an array: `[1,56,9,1925,586,3]` -> `[1]`",
   "license": "MIT",
   "repository": {
@@ -36,7 +36,7 @@
     "execa": "^0.8.0",
     "get-stdin": "^5.0.1",
     "meow": "^3.5.0",
-    "minn": "*"
+    "minn": "latest"
   },
   "devDependencies": {
     "ava": "*",
